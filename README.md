@@ -15,18 +15,18 @@ This is an application with the purpose of allowing a user to schedule events an
 
 ### 375px
 
-<img src="images/375.png" align="left" width="400" ><img src="images/375events.png" align="right" width="400" >
+<img src="images/375.png" style="margin-right: 150" width="300" ><img src="images/375events.png" style="margin-left: 150" width="300" >
 
 ------
 
 ### 768px
 
-<img src="images/768.png" align="left" width="400" ><img src="images/768events.png" align="right" width="400" >
+<img src="images/768.png" style="margin-right: 50" width="400" ><img src="images/768events.png" style="margin-left: 50" width="400" >
 
 ------
 
 ### 980px
 
-<img src="images/980.png" align="left" width="400" ><img src="images/980events.png" align="right" width="400" >
+<img src="images/980.png" style="margin-right: 50" width="400" ><img src="images/980events.png" style="margin-left: 50" width="400" >
 
 ------
