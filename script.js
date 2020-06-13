@@ -9,6 +9,23 @@ var textArea = $(".description");
 $("#currentDay").text(today);
 
 // Function to dynamically change description background color based on time
+function timeColor() {
+    for (var i = 0; i < textArea.length; i++) {
+
+        var time = todayTime + textArea[i].name;
+
+        if (moment(time).isBefore(now)) {
+            $(textArea[i]).addClass("past");
+        }
+        if (moment(time).isSame(now)) {
+            $(textArea[i]).addClass("present");
+        } 
+        if (moment(time).isAfter(now)) {
+            $(textArea[i]).addClass("future");
+        }
+    }
+}
+timeColor();
 
 // Event listener for Save buttons
 
